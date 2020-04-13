@@ -16,6 +16,6 @@ docker start service_db<br>
 docker stop service_db<br>
 ### Connect to database
 driver = org.postgresql.Driver<br>
-url = jdbc:postgresql://localhost:54320<br>
+url = jdbc:postgresql://localhost:5432<br>
 username = admin<br>
 password = pass<br>
