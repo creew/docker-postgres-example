@@ -5,7 +5,7 @@
 01_create_tables.sh - создает таблицу и заполняет ее.<br>
 ### Makefile
 build: создаем докер образ с именем ${USER}/database<br>
-run: создаем докер контейнер с именем service_db, перекидываем со стандартного порта 5432 на порт 54320<br>
+run: создаем докер контейнер с именем service_db<br>
 ### Build image and container
 make build<br>
 make run<br>
