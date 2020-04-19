@@ -17,6 +17,6 @@ psql -v ON_ERROR_STOP=1 --username admin --dbname bank_db <<-EOSQL
 		fk_customer_id INTEGER NOT NULL,
 		amount         BIGINT NOT NULL,
 		PRIMARY KEY    (card_id),
-		FOREIGN KEY    (customer_id) REFERENCES customers(customer_id)
+		FOREIGN KEY    (fk_customer_id) REFERENCES customers(customer_id)
 	)
 EOSQL
