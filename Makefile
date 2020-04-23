@@ -1,5 +1,7 @@
 IMAGE_NAME=database
 
+all: build run
+
 build:
 	docker build -t ${USER}/${IMAGE_NAME} .
 
