@@ -3,7 +3,7 @@
 Скрипты выполняться по порядку, исходя из имени скрипта, при создании контейнера.<br>
 00_init.sh - создает пользователя и базы данных.<br>
 01_create_tables_in_service_db.sh - создает таблицу для CRUD в базе данных service_db и заполняет ее.<br>
-02_create_tables_in_bank_db.sh - создает таблицу для REST Rest интерфейча в базе данных bank_db и заполняет ее.<br>
+02_create_tables_in_bank_db.sh - создает таблицу для REST Rest интерфейcа в базе данных bank_db и заполняет ее.<br>
 
 ### Makefile
 build: создаем докер образ с именем ${USER}/database<br>
